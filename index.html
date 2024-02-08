@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="container">
+          <header>Registration</header>
+          <form  action="#">
+          <div class="form">
+            <div class="details">
+            <span class="title">Persoal Details</span>
+
+            <div class="fields">
+                <div class="inputfield">
+                    <label>First name</label>
+                    <input type="text" placeholder="Enter First name" required>
+                </div>
+                   
+                <div class="inputfield">
+                    <label>Last name</label>
+                    <input type="text" placeholder="Enter Last name" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Date of Birth</label>
+                    <input type="date" placeholder="Enter your DOB" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter your Email" required>
+                </div> 
+
+                <div class="inputfield">
+                    <label>Mobail no</label>
+                    <input type="text" placeholder="Enter your Mobail no." required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Gender</label>
+                    <select name="Gender" id="Gender">
+                        <option value="Select">Select</option>
+                        <option value="male">Male</option>
+                        <option value="male">Female</option>
+                        <option value="male">Transgender</option>
+
+                    </select>
+                    <!-- <input type="text" placeholder="Enter your Gender" required> -->
+                </div>
+
+            </div>
+            </div>
+
+            <div class="details">
+                <span class="title">Educational Details</span>
+    
+                <div class="fields">
+                    <div class="inputfield">
+                        <label>Course</label>
+                        <input type="text" placeholder="Enter Course name" required>
+                    </div>
+    
+                    <div class="inputfield">
+                        <label>Department</label>
+                        <input type="text" placeholder="Enter Branch name" required>
+                    </div>
+    
+                    <div class="inputfield">
+                        <label>Semester</label>
+                        <input type="text" placeholder="Current Semester" required>
+                    </div> 
+    
+                    <div class="inputfield">
+                        <label>Result</label>
+                        <input type="text" placeholder="Enter Current CGPA" required="result">
+                    </div>
+    
+                    <div class="inputfield">
+                        <label>Duration</label>
+                        <input type="text" placeholder="Enter Passing year" required="year">
+                    </div> 
+                    
+                    <div class="inputfield">
+                        <label>Collage</label>
+                        <input type="text" placeholder="Enter Collage name" required name="collage name">
+                    </div>
+                </div>
+                </div>
+
+                <div class="details">
+                    <span class="title">Local Address</span>
+        
+                    <div class="fields">
+                        <div class="inputfield">
+                            <label>Street Address</label>
+                            <input type="text" placeholder="Enter Local Adress" required>
+                        </div>
+        
+                        <div class="inputfield">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter City name" required>
+                        </div>
+        
+                        <div class="inputfield">
+                            <label>State</label>
+                            <input type="text" placeholder="State name" required>
+                        </div> 
+                    </div>
+                    </div>
+                 
+                    <div>
+                        <button>Register</button>
+                    </div>
+                    
+
+          </div>
+        </form>
+       </div>
+       <script src="app.js"></script>
+</body>
+</html>
